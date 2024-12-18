@@ -11,3 +11,5 @@ Criação e chamada de funções;
 API DOM (Document Object Model);
 
 API BOM (Browser Object Model);
+
+*Este projeto é a parte de um curso de desenvolvimento web criado pelos instrutores Jorge Sant Ana e Jamilton Damasceno.*
