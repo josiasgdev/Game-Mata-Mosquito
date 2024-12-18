@@ -1,0 +1,75 @@
+
+/*
+Houve um bug onde o cursor personalizado não aparecia, após a aplicação dos seguintes estilos, funcionou. 
+Mas para testes removi o bloco e por algum motivo a personalização do cursor continuou a funcionar.(THIS IS PROGRAMMING)
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+*/
+
+html{
+    cursor: url(/assets/images/mata_mosquito.png) 30 30, auto;
+    
+}
+
+/*Adicionando plano de fundo*/
+body{
+    background-image: url(/assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*Definindo as proporções das imagens*/
+
+.mosquito1{
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2{
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3{
+    width: 90px;
+    height: 90px;
+}
+
+
+/*Fazendo o espelhamento, invertendo a posição das imagens verticalmente*/
+.ladoA{
+    transform: scaleX(1);
+}
+
+.ladoB{
+    transform: scaleX(-1)
+}
+
+/*Estlização do painel*/
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left:0px;
+    bottom: 0px;
+    border-top: solid 1px #FFF;
+    background-color: #FFF;
+    opacity: 0.7;
+}
+
+/*Estilizando o contador de vidas*/
+.vidas{
+    float: left
+}
+/*Estilizando o cronômetro*/
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
